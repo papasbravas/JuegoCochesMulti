@@ -10,7 +10,9 @@ public class KartSelectUI : MonoBehaviour
 	public Image turnStatBar;
 
 	private void OnEnable() {
-		SelectKart(ClientInfo.KartId);
+        
+
+        SelectKart(0);
 	}
 
 	public void SelectKart(int kartIndex)
